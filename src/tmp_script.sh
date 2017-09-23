@@ -6,7 +6,8 @@ YELOOW="\033[0;33m"
 RESET="\033[0m"
 
 
-#revisar que sea el usuario root 
+#revisar que sea el usuario no sea root 
+
 
 if [[ 0 == $UID ]]
 then 
@@ -36,4 +37,11 @@ then
 	echo HOLA $NOMBRE, su correo es $EMAIL
 fi
 
+echo -en "${YELLOW} AGREGANDO CONFIGURACION DE GIT PARA EL USUARIO $NOMBRE${RESET}"
+
+
+#se ejecuta el comando con -c entre comillas para que lo vea estudiantes, se ejecuta desde academia
+sudo su - estudiantes -c "git config --global user.name \"$NOMBRE\""
+sudo su - estudiantes -c "git config --global user.email \"$EMAIL\""
+sudo su - estudiantes -c "git config --global core.editor vim"
 
