@@ -1,0 +1,276 @@
+
+i
+su - academia
+exit
+su - academia
+exit
+uname -i
+pwd
+pwd -L
+pwd -P
+pwd --help
+clr
+clear
+pwd
+cd 
+clear
+pwd
+cd /
+cd home/
+cd estudiantes/
+clear
+pwd
+cd /home/estudiantes/
+pwd
+clear
+echo hola
+echo escritorio
+echo Escritorio/
+echo Escritorio
+lear
+clear
+vintutor
+apt install vintutor
+clear
+vimtutor
+clear
+dmesg
+dmesg | less
+ls -l
+ls -lh
+ls -r
+ls -lhr
+ls -lr
+ls -lhai
+ls -r
+ls -lr
+mkdir DennisTest
+ls -l
+mv DennisTest /Videos
+su -
+mv DennisTest /Leccion5.3
+mv Test2.txt /Leccion5.3
+mv Test2.txt /DennisTest
+mv Test2 /DennisTest
+mv --h
+clear
+rmdir DennisTest
+ls -l
+touch Dennis.txt
+ls -l
+rm Dennis.txt
+ls -l
+touch Dennis.txt
+stat Test2.txt
+stat Test2
+file Test2
+clear
+locate test2
+locate Test2
+umask
+ls ~ >/tmp/home.txt
+ls ~ 1 >/tmp/home.txt
+ls ~ 1>/tmp/home.txt
+cat /tmp/home.txt 
+date >> /tmp/home.txt 
+cat /tmp/home.txt 
+ls -l
+date | tee timer.txt
+cat timer.txt 
+date | tee timer.txt;sleep 5;date|tee -a timer.txt
+timer.txt 
+pwd
+
+cat Dennis.txt | xargs touch
+man ls
+man h
+man
+man ls
+su -academia
+su - academia
+nmap localhost
+/etc/services
+sudo /etc/services
+apt-get 
+apt-get rem
+apt-get remove svftpd
+sudo apt-get remove svftpd
+su - academia
+echo $VAR1
+exit
+echo $VAR1
+bash
+exit
+echo $VAR1
+export VAR1
+echo $VAR1
+clear
+echo $VAR1
+VAR1=5
+VAR2=2
+mi_var=caso
+echo $VAR1 $VAR2 $mi_var
+bash
+exit
+ip -4 addr
+nmap 10.124.18.126
+ip -4 addr
+htop
+VAR1=5
+VAR2=otro
+mi_var=caso
+echo $VAR1 $VAR2 $mi_var 
+bash
+set
+set | less
+env | less
+history
+env | grep var
+env | grep VAR
+clear
+exit
+ifconfig
+echo hola
+pwd
+clear
+pwd
+ls /
+alias my_year="cal 2017"
+sudo su -
+clear
+cal
+cal 2017
+alias
+clear
+history
+my_year
+dpkg --get-selections | grep linux
+which ls
+ls -l `which ls`
+ls /home
+ls /etc
+which grep
+which nmap
+ls -l
+ls
+ls -lh
+ls -l `which ls`
+history
+history | grep nmap
+last
+last reboot
+w
+pwd
+ls
+man 
+man ls
+ls -w 10
+ls -t 10
+ls -w t10
+ls -w 10 -t 15
+uname
+uname -a
+uname -n
+hostname
+uname -n -o
+cat
+clear
+VAR1=caso
+echo $VAR1
+VAR1=otro
+echo VAR1
+echo $VAR1
+echo Este es otro $VAR1 
+echo Este es $VAR1 caso 
+echo 'Este es $VAR1 caso' 
+bash
+exit
+sudo apt-get install cowsay
+clear
+echo $proyectos
+source .bashrc
+env | less
+mkdir $HOME/prueba1
+ls $HOME
+cd /etc/apt
+echo $HOME
+mkdir $HOME/prueba1/prueba2
+ls $HOME
+ls /home/estudiantes/prueba1/
+tree $HOME/prueba1
+cd
+ls
+echo $PATH
+/bin/ls
+ls
+/bin/ls --color=auto
+VAR1=`ls *.txt`
+echo $VAR1
+VAR1=`ls *.txt`
+VAR3=`ls *.txt`
+echo $VAR3
+VAR1=$(ls *.png)
+VAR10=$(ls *.txt)
+echo $VAR10
+PROJECT=$(pwd)
+echo $PROJECT 
+mkdir $PROJECT/otro 
+pwd
+ls
+nano prog1.sh
+mv prog1.sh /tmp/
+cd /tmp/
+ls
+chmod 750 prog1.sh 
+ls
+ls -l
+./prog1.sh 
+ls
+nano prog1.sh 
+mv prog1.sh programa_identificador
+ls
+history
+echo $PATH
+cd
+ls
+mkdir bin
+ls
+cp /tmp/programa_identificador.sh bin/
+cp /tmp/programa_identificador.sh bin
+cp /tmp/programa_identificador.sh /bin
+clear
+ls
+cd bin
+ls
+clear
+cd /tmp/
+ls
+cd
+PATH=/opt/bin:$PATH
+echo $PATH
+history
+nano .bashrc
+cowsay HOLA ADMIN
+nano .bashrc
+echo $proyectos
+source .bashrc
+echo $proyectos
+nano .bashrc
+nano .bash_history
+ls /dev/
+cd /tmp/
+ls
+pwd
+dd if=/dev/zero of=/tmp/data01.out
+dd if=/dev/zero of=/tmp/data.out bs=1 count=12
+split -b 2 data.out
+ls -l
+cat xa* > data2.out
+ls -l
+split -n 4 data.out salidas.
+ls -l
+dmesg
+cd
+cat /etc/passwd
+cut -d":" -f1,4 /etc/passwd
+cut -d'$' -f1,4 /etc/passwd
